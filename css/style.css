@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+.logo h2{
+    color: aliceblue;
+    margin: 40px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.logo h2 span{
+    color: gold;
+    font-weight: 300;
+}
+
+.nav{
+    float: right;
+    letter-spacing: normal;
+    
+}
+
+.nav ul{
+    display: flex;
+    margin-right: 80px;
+    margin-top: -4rem;
+    align-items: center;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    font-size:15px;
+    color: gold;
+    font-weight: 600
+}
+
+.nav li span{
+    color: black;
+    background: gold;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.text h2{
+    color: white;
+    margin: 80px;
+    margin-top: 220px;
+    letter-spacing: 4px;
+    line-height: 35px;
+    font-size: 30px;
+}
+
+.text h2 span{
+    color: gold;
+}
+
+.text p{
+    margin: 80px;
+    color: white;
+    line-height: 23px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.text2 img{
+    margin-left: 80;
+    cursor: pointer;
+}
+
+.pic img{
+    float: right;
+    width: 500px;
+    margin-right:140px;
+    margin-top: -480px;
+}
+
+.about h2{
+    margin-top: 220px;
+    color: white;
+}
+
+.about hr{
+    width: 70px;
+    background-color: gold;
+}
+
+.pic2 img{
+    width: 450px;
+    height: 300px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.pic2 img:hover{
+    width: 465px;
+}
+
+.prev p{
+    float: left;
+    color: white;
+    margin-top: 50px;
+    margin-left: 280px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.contact-box h2{
+    color: white;
+    float: left;
+    margin-top: 80px;
+    
+}
+
+.contact-box{
+    top: 1700;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%; -50%);
+    width: 700px;
+}
+
+.contact-box h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: 0rem;
+    font-weight: 600;
+    margin-left: 240px;
+}
+
+.contact-box input{
+    width: 600px;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 2px solid gold;
+    background-color: aliceblue;
+}
+
+.contact-box input:focus{
+    border: 3px solid white;
+    outline: 0;
+}
+
+.contact-box textarea{
+    width: 600px;
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border: 2px solid gold;
+    border-radius: 2px;
+    background-color: aliceblue;
+}
+
+.contact-box textarea:focus{
+    border: 3px solid white;
+    outline: 0;
+}
+
+input[type="submit"], button{
+    background: gold;
+    color: white;
+    width: 140px;
+    cursor: pointer;
+    font-size: 17px;
+    height: 40px;
+    border-radius: 2px;
+    font-weight: 600
+}
+
+
+input[type="submit"]:hover, button:hover{
+    width: 143px;
+    height: 43px;
+}
+
+
+.copyright-text {
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    margin-top: 1400px;
+    height: 50px;
+    padding-top: 1rem;
+    line-height: 22px;
+    background-color: gold;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
